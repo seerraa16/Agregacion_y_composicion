@@ -24,5 +24,12 @@ class ciudad:
 
 
 
-
-        
+SrMartin = empleados("Sr.Martin")
+Srsalim = empleados("Sr.Salim")
+SraXang = empleados("Sra.Xang")
+edificio_A = edificio("A", SrMartin)
+edificio_B = edificio("B", Srsalim)
+edificio_C = edificio("C", SraXang)
+NY = ciudad("New York", edificio_A, edificio_B, SrMartin, Srsalim)
+LA = ciudad("Los Angeles", edificio_C, SraXang)
+yohoo = empresa("Yohoo", edificio_A, edificio_B, edificio_C, SrMartin, Srsalim, SraXang, NY, LA)
