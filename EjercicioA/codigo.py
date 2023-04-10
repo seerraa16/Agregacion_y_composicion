@@ -5,5 +5,10 @@ empleado1 = empleados("Sr. Martin")
 empleado2 = empleados("Sr. salim")
 empleado3 = empleados("Sra. Xing")
 
+class edificio :
+    def __init__(self, letra):
+        self.letra = letra
+    empleados = []
+    
 
         
