@@ -1,9 +1,7 @@
 class empleados :
     def __init__(self, nombre):
         self.nombre = nombre
-empleado1 = empleados("Sr. Martin")
-empleado2 = empleados("Sr. salim")
-empleado3 = empleados("Sra. Xing")
+
 
 
 class edificio :
@@ -16,6 +14,13 @@ class empresa :
         self.nombre = nombre
     empleados = []
     edificios = []
+
+class ciudad: 
+    def __init__(self, nombre):
+        self.nombre = nombre
+    empresas = []
+    edificio = []
+    empleados = []
 
 
 
