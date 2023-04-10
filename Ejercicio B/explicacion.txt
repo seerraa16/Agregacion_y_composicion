@@ -1,0 +1,6 @@
+Primero, hay que decir que el metdod def__del__ hace que aparezca el mensaje de "Yang destruido".
+Entonces el mensje de interrogacion sale despues que el de yang destruido debido a que se escribe primero el del que el imprimir la interrogacion
+para que aparezca la interrogacion antes que "Yang destruido", es muy sencillo.
+Escribimos lo siguiente;
+del(yang)
+print("?")
