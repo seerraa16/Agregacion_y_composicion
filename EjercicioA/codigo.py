@@ -33,3 +33,5 @@ edificio_C = edificio("C", SraXang)
 NY = ciudad("New York", edificio_A, edificio_B, SrMartin, Srsalim)
 LA = ciudad("Los Angeles", edificio_C, SraXang)
 yohoo = empresa("Yohoo", edificio_A, edificio_B, edificio_C, SrMartin, Srsalim, SraXang, NY, LA)
+
+print(yohoo.nombre)
