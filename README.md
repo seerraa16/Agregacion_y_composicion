@@ -5,7 +5,7 @@ Enunciado: modelar lo siguiente. Una empresa es propietaria de varios edificios 
 
 Una vez definidas estas entidades, imagine que su programa es una película estadounidense de catástrofes, en la que se destruye New York. Implemente este evento para que todas las entidades del juego tengan en cuenta las consecuencias de este cataclismo.
 
-b. ¿Inmortal?
+### b. ¿Inmortal?
 Enunciado: Teniendo en cuenta el siguiente código, explique por qué el mensaje Yang destruido, se muestra después del signo de interrogación. ¿Qué hay que hacer para que aparezca antes?
 
 class Yin: pass 
@@ -25,7 +25,7 @@ del(yang)
 print("?") 
 >>> ? 
 Yang destruido 
-c. Alternativa a la herencia múltiple
+### c. Alternativa a la herencia múltiple
 En el último ejercicio de la sección sobre la herencia, se mostraron los límites de la herencia múltiple: acoplamientos de clases cuyo vínculo no es tan obvio, atajos tomados en el código que tienen mucho riesgo de error. Este ejercicio utiliza otro enfoque del problema: la asociación (ya sea composición o agregación). 
 
 Enunciado: comenzando con el mismo código que el ejercicio sobre herencia múltiple, cree una clase que agrupe el comportamiento común entre las clases Ventana y ParedCortina.
